@@ -8,4 +8,4 @@ def apply_discount(amount, discount_percent):
 
     # Work out the new price and round to 2 decimals
     discounted = amount * (1 - discount_percent / 100)
-    return round(discounted, 2)
+    return round(discounted, 2) + 5
